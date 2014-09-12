@@ -21,6 +21,8 @@
 		44514D8319C3363000E3F7A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44514D6519C3363000E3F7A8 /* UIKit.framework */; };
 		44514D8B19C3363000E3F7A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44514D8919C3363000E3F7A8 /* InfoPlist.strings */; };
 		44514D8D19C3363000E3F7A8 /* JcamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44514D8C19C3363000E3F7A8 /* JcamTests.m */; };
+		44514D9A19C33A4500E3F7A8 /* JCOpenCvManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44514D9919C33A4500E3F7A8 /* JCOpenCvManager.mm */; };
+		44514D9B19C33B8500E3F7A8 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44514D9619C3392100E3F7A8 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		44514D8819C3363000E3F7A8 /* JcamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JcamTests-Info.plist"; sourceTree = "<group>"; };
 		44514D8A19C3363000E3F7A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44514D8C19C3363000E3F7A8 /* JcamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JcamTests.m; sourceTree = "<group>"; };
+		44514D9619C3392100E3F7A8 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../git/opencv/ios/opencv2.framework; sourceTree = "<group>"; };
+		44514D9819C33A4500E3F7A8 /* JCOpenCvManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCOpenCvManager.h; path = src/JCOpenCvManager.h; sourceTree = "<group>"; };
+		44514D9919C33A4500E3F7A8 /* JCOpenCvManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JCOpenCvManager.mm; path = src/JCOpenCvManager.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44514D9B19C33B8500E3F7A8 /* opencv2.framework in Frameworks */,
 				44514D6419C3363000E3F7A8 /* CoreGraphics.framework in Frameworks */,
 				44514D6619C3363000E3F7A8 /* UIKit.framework in Frameworks */,
 				44514D6219C3363000E3F7A8 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		44514D6019C3363000E3F7A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44514D9619C3392100E3F7A8 /* opencv2.framework */,
 				44514D6119C3363000E3F7A8 /* Foundation.framework */,
 				44514D6319C3363000E3F7A8 /* CoreGraphics.framework */,
 				44514D6519C3363000E3F7A8 /* UIKit.framework */,
@@ -119,6 +126,8 @@
 				44514D7719C3363000E3F7A8 /* JCViewController.m */,
 				44514D7919C3363000E3F7A8 /* Images.xcassets */,
 				44514D6819C3363000E3F7A8 /* Supporting Files */,
+				44514D9819C33A4500E3F7A8 /* JCOpenCvManager.h */,
+				44514D9919C33A4500E3F7A8 /* JCOpenCvManager.mm */,
 			);
 			path = Jcam;
 			sourceTree = "<group>";
@@ -200,6 +209,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Project Wolf";
 				TargetAttributes = {
+					44514D5D19C3363000E3F7A8 = {
+						DevelopmentTeam = HUA9832AFD;
+					};
 					44514D7E19C3363000E3F7A8 = {
 						TestTargetID = 44514D5D19C3363000E3F7A8;
 					};
@@ -253,6 +265,7 @@
 				44514D6E19C3363000E3F7A8 /* main.m in Sources */,
 				44514D7819C3363000E3F7A8 /* JCViewController.m in Sources */,
 				44514D7219C3363000E3F7A8 /* JCAppDelegate.m in Sources */,
+				44514D9A19C33A4500E3F7A8 /* JCOpenCvManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,10 +390,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/masa/git/opencv/ios,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jcam/Jcam-Prefix.pch";
 				INFOPLIST_FILE = "Jcam/Jcam-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +410,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/masa/git/opencv/ios,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jcam/Jcam-Prefix.pch";
 				INFOPLIST_FILE = "Jcam/Jcam-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

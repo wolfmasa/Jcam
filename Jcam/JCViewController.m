@@ -26,4 +26,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark UIImagePickerViewDelegate
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    return;
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+    return;
+}
+
 @end
