@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44514D6219C3363000E3F7A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44514D6119C3363000E3F7A8 /* Foundation.framework */; };
+		44514D6419C3363000E3F7A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44514D6319C3363000E3F7A8 /* CoreGraphics.framework */; };
+		44514D6619C3363000E3F7A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44514D6519C3363000E3F7A8 /* UIKit.framework */; };
+		44514D6C19C3363000E3F7A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44514D6A19C3363000E3F7A8 /* InfoPlist.strings */; };
+		44514D6E19C3363000E3F7A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44514D6D19C3363000E3F7A8 /* main.m */; };
+		44514D7219C3363000E3F7A8 /* JCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44514D7119C3363000E3F7A8 /* JCAppDelegate.m */; };
+		44514D7519C3363000E3F7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44514D7319C3363000E3F7A8 /* Main.storyboard */; };
+		44514D7819C3363000E3F7A8 /* JCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44514D7719C3363000E3F7A8 /* JCViewController.m */; };
+		44514D7A19C3363000E3F7A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44514D7919C3363000E3F7A8 /* Images.xcassets */; };
+		44514D8119C3363000E3F7A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44514D8019C3363000E3F7A8 /* XCTest.framework */; };
+		44514D8219C3363000E3F7A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44514D6119C3363000E3F7A8 /* Foundation.framework */; };
+		44514D8319C3363000E3F7A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44514D6519C3363000E3F7A8 /* UIKit.framework */; };
+		44514D8B19C3363000E3F7A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44514D8919C3363000E3F7A8 /* InfoPlist.strings */; };
+		44514D8D19C3363000E3F7A8 /* JcamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44514D8C19C3363000E3F7A8 /* JcamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44514D8419C3363000E3F7A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44514D5619C3363000E3F7A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44514D5D19C3363000E3F7A8;
+			remoteInfo = Jcam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44514D5E19C3363000E3F7A8 /* Jcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44514D6119C3363000E3F7A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44514D6319C3363000E3F7A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44514D6519C3363000E3F7A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44514D6919C3363000E3F7A8 /* Jcam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jcam-Info.plist"; sourceTree = "<group>"; };
+		44514D6B19C3363000E3F7A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44514D6D19C3363000E3F7A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44514D6F19C3363000E3F7A8 /* Jcam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jcam-Prefix.pch"; sourceTree = "<group>"; };
+		44514D7019C3363000E3F7A8 /* JCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCAppDelegate.h; sourceTree = "<group>"; };
+		44514D7119C3363000E3F7A8 /* JCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCAppDelegate.m; sourceTree = "<group>"; };
+		44514D7419C3363000E3F7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44514D7619C3363000E3F7A8 /* JCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCViewController.h; sourceTree = "<group>"; };
+		44514D7719C3363000E3F7A8 /* JCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCViewController.m; sourceTree = "<group>"; };
+		44514D7919C3363000E3F7A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44514D7F19C3363000E3F7A8 /* JcamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JcamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44514D8019C3363000E3F7A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		44514D8819C3363000E3F7A8 /* JcamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JcamTests-Info.plist"; sourceTree = "<group>"; };
+		44514D8A19C3363000E3F7A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44514D8C19C3363000E3F7A8 /* JcamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JcamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44514D5B19C3363000E3F7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44514D6419C3363000E3F7A8 /* CoreGraphics.framework in Frameworks */,
+				44514D6619C3363000E3F7A8 /* UIKit.framework in Frameworks */,
+				44514D6219C3363000E3F7A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44514D7C19C3363000E3F7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44514D8119C3363000E3F7A8 /* XCTest.framework in Frameworks */,
+				44514D8319C3363000E3F7A8 /* UIKit.framework in Frameworks */,
+				44514D8219C3363000E3F7A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44514D5519C3363000E3F7A8 = {
+			isa = PBXGroup;
+			children = (
+				44514D6719C3363000E3F7A8 /* Jcam */,
+				44514D8619C3363000E3F7A8 /* JcamTests */,
+				44514D6019C3363000E3F7A8 /* Frameworks */,
+				44514D5F19C3363000E3F7A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44514D5F19C3363000E3F7A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44514D5E19C3363000E3F7A8 /* Jcam.app */,
+				44514D7F19C3363000E3F7A8 /* JcamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44514D6019C3363000E3F7A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44514D6119C3363000E3F7A8 /* Foundation.framework */,
+				44514D6319C3363000E3F7A8 /* CoreGraphics.framework */,
+				44514D6519C3363000E3F7A8 /* UIKit.framework */,
+				44514D8019C3363000E3F7A8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44514D6719C3363000E3F7A8 /* Jcam */ = {
+			isa = PBXGroup;
+			children = (
+				44514D7019C3363000E3F7A8 /* JCAppDelegate.h */,
+				44514D7119C3363000E3F7A8 /* JCAppDelegate.m */,
+				44514D7319C3363000E3F7A8 /* Main.storyboard */,
+				44514D7619C3363000E3F7A8 /* JCViewController.h */,
+				44514D7719C3363000E3F7A8 /* JCViewController.m */,
+				44514D7919C3363000E3F7A8 /* Images.xcassets */,
+				44514D6819C3363000E3F7A8 /* Supporting Files */,
+			);
+			path = Jcam;
+			sourceTree = "<group>";
+		};
+		44514D6819C3363000E3F7A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44514D6919C3363000E3F7A8 /* Jcam-Info.plist */,
+				44514D6A19C3363000E3F7A8 /* InfoPlist.strings */,
+				44514D6D19C3363000E3F7A8 /* main.m */,
+				44514D6F19C3363000E3F7A8 /* Jcam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44514D8619C3363000E3F7A8 /* JcamTests */ = {
+			isa = PBXGroup;
+			children = (
+				44514D8C19C3363000E3F7A8 /* JcamTests.m */,
+				44514D8719C3363000E3F7A8 /* Supporting Files */,
+			);
+			path = JcamTests;
+			sourceTree = "<group>";
+		};
+		44514D8719C3363000E3F7A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44514D8819C3363000E3F7A8 /* JcamTests-Info.plist */,
+				44514D8919C3363000E3F7A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44514D5D19C3363000E3F7A8 /* Jcam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44514D9019C3363000E3F7A8 /* Build configuration list for PBXNativeTarget "Jcam" */;
+			buildPhases = (
+				44514D5A19C3363000E3F7A8 /* Sources */,
+				44514D5B19C3363000E3F7A8 /* Frameworks */,
+				44514D5C19C3363000E3F7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jcam;
+			productName = Jcam;
+			productReference = 44514D5E19C3363000E3F7A8 /* Jcam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44514D7E19C3363000E3F7A8 /* JcamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44514D9319C3363000E3F7A8 /* Build configuration list for PBXNativeTarget "JcamTests" */;
+			buildPhases = (
+				44514D7B19C3363000E3F7A8 /* Sources */,
+				44514D7C19C3363000E3F7A8 /* Frameworks */,
+				44514D7D19C3363000E3F7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44514D8519C3363000E3F7A8 /* PBXTargetDependency */,
+			);
+			name = JcamTests;
+			productName = JcamTests;
+			productReference = 44514D7F19C3363000E3F7A8 /* JcamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44514D5619C3363000E3F7A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Project Wolf";
+				TargetAttributes = {
+					44514D7E19C3363000E3F7A8 = {
+						TestTargetID = 44514D5D19C3363000E3F7A8;
+					};
+				};
+			};
+			buildConfigurationList = 44514D5919C3363000E3F7A8 /* Build configuration list for PBXProject "Jcam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44514D5519C3363000E3F7A8;
+			productRefGroup = 44514D5F19C3363000E3F7A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44514D5D19C3363000E3F7A8 /* Jcam */,
+				44514D7E19C3363000E3F7A8 /* JcamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44514D5C19C3363000E3F7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44514D7A19C3363000E3F7A8 /* Images.xcassets in Resources */,
+				44514D6C19C3363000E3F7A8 /* InfoPlist.strings in Resources */,
+				44514D7519C3363000E3F7A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44514D7D19C3363000E3F7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44514D8B19C3363000E3F7A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44514D5A19C3363000E3F7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44514D6E19C3363000E3F7A8 /* main.m in Sources */,
+				44514D7819C3363000E3F7A8 /* JCViewController.m in Sources */,
+				44514D7219C3363000E3F7A8 /* JCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44514D7B19C3363000E3F7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44514D8D19C3363000E3F7A8 /* JcamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44514D8519C3363000E3F7A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44514D5D19C3363000E3F7A8 /* Jcam */;
+			targetProxy = 44514D8419C3363000E3F7A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44514D6A19C3363000E3F7A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44514D6B19C3363000E3F7A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44514D7319C3363000E3F7A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44514D7419C3363000E3F7A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44514D8919C3363000E3F7A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44514D8A19C3363000E3F7A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44514D8E19C3363000E3F7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44514D8F19C3363000E3F7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44514D9119C3363000E3F7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jcam/Jcam-Prefix.pch";
+				INFOPLIST_FILE = "Jcam/Jcam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44514D9219C3363000E3F7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jcam/Jcam-Prefix.pch";
+				INFOPLIST_FILE = "Jcam/Jcam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		44514D9419C3363000E3F7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jcam.app/Jcam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jcam/Jcam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JcamTests/JcamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		44514D9519C3363000E3F7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jcam.app/Jcam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jcam/Jcam-Prefix.pch";
+				INFOPLIST_FILE = "JcamTests/JcamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44514D5919C3363000E3F7A8 /* Build configuration list for PBXProject "Jcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44514D8E19C3363000E3F7A8 /* Debug */,
+				44514D8F19C3363000E3F7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44514D9019C3363000E3F7A8 /* Build configuration list for PBXNativeTarget "Jcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44514D9119C3363000E3F7A8 /* Debug */,
+				44514D9219C3363000E3F7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44514D9319C3363000E3F7A8 /* Build configuration list for PBXNativeTarget "JcamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44514D9419C3363000E3F7A8 /* Debug */,
+				44514D9519C3363000E3F7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44514D5619C3363000E3F7A8 /* Project object */;
+}
